@@ -4,16 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { GameDetailsComponent } from './game-details/game-details.component';
-import { SearchLastGameComponent } from './game-details/search-last-game/search-last-game.component';
+import { SummonerDetailsComponent } from './summoner-details/summoner-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    GameDetailsComponent,
-    SearchLastGameComponent
-  ],
+    SummonerDetailsComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule
